@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="styleRegister.css">
+</head>
+<body>
+    <div class="header">
+        <nav class="nav">
+            <div class="logo">
+                <p>PROJ</p>
+            </div>
+            <div class="navBtn">
+                <button class="btn" id="loginBtn">Sign IN</button>
+                <button class="btn whiteBtn" id="registrationBtn">Sign Up</button>
+            </div>
+        </nav>
+
+        <!-- Form -->
+        <div class="formBox">
+
+            <!-- registration Form -->
+            <div class="regisBox" id="regis">
+                <div class="top">
+                    <span>Have an account?<a href="#" onclick="login()">Login</a></span>
+                    <header>Sign Up</header>
+                </div>
+                <div class="two-forms">
+                    <div class="input-box">
+                        <input type="text" class="input-field" placeholder="Firstname">
+                    </div>
+                    <div class="input-box">
+                        <input type="text" class="input-field" placeholder="Lastname">
+                    </div>
+                </div>
+                
+                <div class="input-box">
+                    <input type="text" class="input-field" placeholder="Course">
+                </div>
+
+                <div class="input-box">
+                    <input type="text" class="input-field" placeholder="Contact No.">
+                </div>
+
+                <div class="input-box">
+                    <input type="text" class="input-field" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="password" class="input-field" placeholder="Password">
+                </div>
+                <div class="input-box">
+                    <input type="submit" class="submit" value="Register">
+                </div>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
