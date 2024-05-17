@@ -50,7 +50,7 @@ body{
     margin-left: 15px ;
 }
 
-.formBox{
+#formBox{
     position: relative;
     display: flex;
     align-items: center;

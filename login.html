@@ -19,23 +19,23 @@
         </nav>
 
         <!-- Form -->
-        <div class="formBox">
+        <form action="/login" method="POST" id="formBox">
             <!-- login form -->
             <div class="loginBox" id="login">
                 <header>Login</header>
                 <div class="input-box">
-                    <input type="text" class="input-field" placeholder="Username or Email">
+                    <input type="text" class="input-field" placeholder="Username or Contact No." name="username" id="uname">
                 </div>
                 <div class="input-box">
-                    <input type="password" class="input-field" placeholder="Password">
+                    <input type="password" class="input-field" placeholder="Password" name="password" id="pass">
                 </div>
                 <div class="input-box">
-                    <input type="submit" class="submit" value="Sign In">
+                    <input type="submit" class="submit" value="Sign In" id="submit">
                 </div>
                 <div class="top">
                     <span>Don't have an account? <a href="#" onclick="register()">Sign Up</a></span>
                 </div>
-            </div>
+            </form>
 
             <!-- registration Form -->
             <!-- <div class="regisBox" id="regis">

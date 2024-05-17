@@ -19,33 +19,28 @@
         </nav>
 
         <!-- Form -->
-        <div class="formBox">
+        <form action="/signUp" method="POST" id="formBox">
 
             <!-- registration Form -->
             <div class="regisBox" id="regis">
                 <header>Sign Up</header>
-                <div class="two-forms">
                     <div class="input-box">
-                        <input type="text" class="input-field" placeholder="Firstname">
+                        <input type="text" class="input-field" placeholder="Name" name="name">
                     </div>
-                    <div class="input-box">
-                        <input type="text" class="input-field" placeholder="Lastname">
-                    </div>
-                </div>
                 
                 <div class="input-box">
-                    <input type="text" class="input-field" placeholder="Course">
+                    <input type="text" class="input-field" placeholder="Course" name="Course">
                 </div>
 
                 <div class="input-box">
-                    <input type="text" class="input-field" placeholder="Contact No.">
+                    <input type="text" class="input-field" placeholder="Contact No." name="Contact">
                 </div>
 
                 <div class="input-box">
-                    <input type="text" class="input-field" placeholder="Email">
+                    <input type="text" class="input-field" placeholder="Email" name="Email">
                 </div>
                 <div class="input-box">
-                    <input type="password" class="input-field" placeholder="Password">
+                    <input type="password" class="input-field" placeholder="Password" name="pass">
                 </div>
                 <div class="input-box">
                     <input type="submit" class="submit" value="Register">
@@ -54,7 +49,7 @@
                     <span>Have an account?<a href="#" onclick="login()">Login</a></span>
                 </div>
             </div>
-        </div>
+        </form>
     </div>    
 </body>
 </html>
