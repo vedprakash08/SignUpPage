@@ -18,6 +18,7 @@ body{
     min-height: 100vh;
 }
 .nav{
+    margin-left: 100px;
     position: fixed;
     top: 0;
     display: flex;
