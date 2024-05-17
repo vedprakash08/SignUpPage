@@ -15,7 +15,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 110vh;
+    min-height: 100vh;
 }
 .nav{
     position: fixed;
@@ -72,16 +72,16 @@ body{
     border-radius: 30px;
 }
 .top span{
-    color: #fff;
-    font-size: small;
+    color: black;
+    font-size: medium;
     padding: 10px 0;
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: -5px;
 }
 .top span a{
     font-weight: 500;
-    color: #fff;
+    color: black;
     margin-left: 5px;
 }
 header{
@@ -108,9 +108,9 @@ header{
 .input-field:hover, .input-field:focus{
     background: rgba(73, 52, 52, 0.2);
 }
-::-webkit-input-placeholder{
-    /* color: rgba(255,255,255); */
-}
+/* ::-webkit-input-placeholder{
+    color: rgba(255,255,255);
+} */
 .submit{
     font-size: 15px;
     font-weight: 500;
