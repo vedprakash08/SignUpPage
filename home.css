@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 10px;
+}
+  
+.nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100px;
+    line-height: 100px;
+    font-size: 30px;
+    background-color: rgb(132, 88, 179);
+    color: #fff;
+}
+
+.profile img{
+    height: 37px;
+}
+.profile span{
+    margin-left: 8px;
+}
+.logo p{
+    text-decoration: underline;
+    font-size: medium;
+    font-size: 32px;
+}
+
+.box{
+    width: 70vw;
+    min-height: 70vh;
+    margin-top: 120px;
+    border-radius: 30px;
+    justify-content: space-around;
+    background-color: #8458B3;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.verBox{
+    min-height: 100%;
+    background-color: #fff;
+    width: 15%;
+    padding: 45px 0;
+    margin-left: 50px;
+}
+.verBox div{
+    font-size: 80px;
+    color: #8458B3;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.cont{
+    margin-top: 100px;
+}
+.box .name{
+    font-size: 70px;
+    color: #fff;
+    font-weight: bold;
+}
+.box .course{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 500;
+}
+.box .contact{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 450;
+}
+.box .email{
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+}
